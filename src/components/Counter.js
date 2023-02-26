@@ -10,10 +10,10 @@ const Counter = () => {
   const counter = useSelector(state => state.counter);
 
   const incrementHandler = () => {
-    dispatchFunction(counterIncrementActionCreator());
+    dispatchFunction(counterIncrementActionCreator(10));
   };
   const decrementHandler = () => {
-    dispatchFunction(counterDecrementActionCreator());
+    dispatchFunction(counterDecrementActionCreator(10));
   };
 
   // const toggleCounterHandler = () => {};
