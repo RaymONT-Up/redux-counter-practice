@@ -2,7 +2,7 @@ import Counter from "./components/Counter";
 import Header from "./components/Header";
 import Auth from "./components/Auth";
 import { useSelector, useDispatch } from "react-redux";
-import { userAuthActions } from "./store";
+import { userAuthActions } from "./store/user-auth-slice";
 
 function App() {
   const dispatchFunction = useDispatch();
